@@ -1,0 +1,4 @@
+/* Minimal global styles - most styles defined in design system */
+#root {
+  min-height: 100vh;
+}
