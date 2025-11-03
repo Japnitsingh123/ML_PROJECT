@@ -3,11 +3,15 @@ import PredictionForm from "@/components/PredictionForm";
 import TrafficStatus from "@/components/TrafficStatus";
 import StatsSection from "@/components/StatsSection";
 import TrafficChart from "@/components/TrafficChart";
+import ModelMetrics from "@/components/ModelMetrics";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       <HeroSection />
+      
+      
+      
       <StatsSection />
       <PredictionForm />
       <TrafficStatus />
